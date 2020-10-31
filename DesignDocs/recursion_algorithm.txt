@@ -1,0 +1,12 @@
+Pseudocode
+
+- Check preconditions: 
+	* is this the last recursive call?
+	* are circles big enough to draw?
+- If last recursion call, add pear circles with selected color, end function
+- If not last recursion call
+	* create current circle and add to list
+	* shift x and y coord to the right 45 degree
+		- recursively call to the right with new X, Y, angle, and depth minus 1
+	* shift x and y coord to the left 45 degree
+		- recursively call o the left with new X, Y, angle, and depth minus 1
