@@ -1,6 +1,9 @@
 # Simple Fractal
 
-This is a simple Java program that draws a prickly pear cactus base on user requested parameters. It utilizes Java Swing for the graphical user interface, and follows the Observer design pattern for data transfer.
+This is a simple Java program that draws a prickly pear cactus base on user requested parameters.
+
+- It utilizes Java Swing for the graphical user interface
+- It follows the Observer design pattern for data transfer
 
 Example of GUI:
 ![GUI](./DesignDocs/GUI.png)
